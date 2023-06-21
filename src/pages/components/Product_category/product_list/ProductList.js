@@ -36,7 +36,7 @@ const ProductList = () => {
       );
     }
     if (redirect) {
-      // Navigate("/");
+
     }
   };
   return (
@@ -64,7 +64,6 @@ const ProductList = () => {
                   </Link>
 
                   <div className="card-body text-center">
-                    {/* <p className="product-text mb-0">{title}</p> */}
                     <p className="product-price-text mb-3">$ {price}</p>
                     <span>
                       <Rating />
