@@ -9,9 +9,9 @@ const Index = () => {
 
   return (
     <>
-      <Navbar />
-      <MidContent />
-      <Footer />
+      <Navbar/>
+      <MidContent/>
+      <Footer/>
     </>
   );
 };
