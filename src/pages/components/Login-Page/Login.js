@@ -19,7 +19,8 @@ const LoginForm = () => {
   return (
     <>
       <Navbar />
-      <div className="login-body mt-3">
+      Login page
+      {/* <div className="login-body mt-3">
         <div className="container">
           <div className="row">
             <div className="col-12 col-lg-6 py-4">
@@ -274,7 +275,7 @@ const LoginForm = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </>
