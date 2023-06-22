@@ -3,6 +3,8 @@ import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 import Link from "next/link";
 import Image from "next/image";
+import Items from "./AddTooCart-Items/Items";
+import Coupon from "./Summary-AddTooCart/Coupon";
 import { useRouter } from "next/router";
 import QuantityCounter from "./QuantityCounter/QuantityCounter";
 
@@ -22,7 +24,7 @@ const AddToCart = () => {
     }, 0);
     setTotal(total);
   }, [carts]);
-// nothing
+
   const removeProduct = (id) => {
     const updatedCart = carts.filter((item) => item.id !== id);
     setCarts(updatedCart);
