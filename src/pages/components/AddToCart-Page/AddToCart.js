@@ -22,7 +22,7 @@ const AddToCart = () => {
     }, 0);
     setTotal(total);
   }, [carts]);
-
+// nothing
   const removeProduct = (id) => {
     const updatedCart = carts.filter((item) => item.id !== id);
     setCarts(updatedCart);
