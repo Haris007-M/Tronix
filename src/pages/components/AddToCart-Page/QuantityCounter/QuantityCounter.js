@@ -33,7 +33,7 @@ function QuantityCounter({carts, setCarts , cart}) {
   return (
     <div className='p-0 mt-4 QuantityCounter-Div-Set'>
       <button  className='minusButton'>-</button>
-      <span className='btn-mid-qty'>{cart.quantity}</span>
+      <span className='btn-mid-qty'>2</span>
       <button  className='plusButton'>+</button>
     </div>
   );
