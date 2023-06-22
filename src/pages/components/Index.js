@@ -9,6 +9,7 @@ const Index = () => {
 
   return (
     <>
+    {/* Home page  */}
       <Navbar/>
       <MidContent/>
       <Footer/>
